@@ -132,7 +132,7 @@ class buie_integration:
     def CSR_calibration(self, source):
         '''
         pre proceed CSR to true value
-        source - 'CA' from Charles; or 'Tonatiuh' from Tonatiuh
+        source - 'CA' from Charles Charles-Alexis Asselineau at ANU; or 'tonatiuh' from Manuel Blanco at CyI
         '''
         csr=self.CSR
         if source=='CA':
